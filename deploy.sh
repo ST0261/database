@@ -22,5 +22,5 @@ docker run \
     --name mongodb \
     -d \
     -p 27017-27019:27017-27019  \
-    -v ~/mongo/data:/data/db \
+    -v /mongo_data/data:/data/db \
     mongo
