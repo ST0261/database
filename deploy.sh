@@ -23,5 +23,4 @@ docker run \
     -d \
     -p 27017-27019:27017-27019  \
     -v ~/mongo/data:/data/db \
-    mongo \
-    --replSet "rs0"
+    mongo
