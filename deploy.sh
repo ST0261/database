@@ -21,6 +21,6 @@ docker pull mongo
 docker run \
     --name mongodb \
     -d \
-    -p 27017-27019:27017-27019  \
+    -p 80:27017  \
     -v /mongo_data/data:/data/db \
     mongo
